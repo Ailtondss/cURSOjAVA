@@ -3,15 +3,15 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.trinagle2;
+import entities.Rectangle;
 
-public class Triangle2 {
+public class Program03 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter rectangle width and height:");
-		trinagle2 triang = new trinagle2();
+		Rectangle triang = new Rectangle();
 		triang.width = sc.nextDouble();
 		triang.height = sc.nextDouble();
 		System.out.printf("AREA = %.2f%n ", triang.area());
